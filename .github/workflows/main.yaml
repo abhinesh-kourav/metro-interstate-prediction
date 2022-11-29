@@ -45,7 +45,7 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'ineuron-ml-redeploy'
+        app-name: 'metro-interstate-predictor'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_58dad0adf62549c9b29775b303bba1df }}
         images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_260d66098ff647a4a923d8d465005d24 }}/new_app_test:${{ github.sha }}'
