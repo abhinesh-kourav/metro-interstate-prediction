@@ -1,9 +1,12 @@
 numpy
 Flask
+scipy
 gunicorn
 sklearn
 pandas
-PyYAML
-evidently
 dill
 matplotlib
+catboost
+xgboost
+pickle
+warning
